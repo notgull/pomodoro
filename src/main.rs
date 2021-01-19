@@ -203,7 +203,7 @@ async fn x_process(receiver: Receiver<(usize, [u8; 3])>) -> anyhow::Result<()> {
     win.set_event_mask_async(&mut conn, EventMask::EXPOSURE | EventMask::STRUCTURE_NOTIFY)
         .await?;
     win.map_async(&mut conn).await?;
-    win.set_title_async(&mut conn, "Pomodoro Method").await?;
+    win.set_title_async(&mut conn, "seagulldoro").await?;
 
     let wdw = conn
         .intern_atom_immediate_async("WM_DELETE_WINDOW".to_owned(), false)

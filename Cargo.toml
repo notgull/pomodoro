@@ -1,11 +1,11 @@
 [package]
-name = "pomodoro"
+name = "seagulldoro"
 version = "0.1.0"
-authors = ["not_a_seagull <jtnunley01@gmail.com>"]
+authors = ["notgull <jtnunley01@gmail.com>"]
 description = "Implementation of a pomodoro timer using async, minimal utilities"
 edition = "2018"
-homepage = "https://github.com/notgull/pomodoro#readme"
-repository = "https://github.com/notgull/pomodoro"
+homepage = "https://github.com/notgull/seagulldoro#readme"
+repository = "https://github.com/notgull/seagulldoro"
 license = "MIT OR Apache-2.0"
 
 [dependencies]

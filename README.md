@@ -1,4 +1,4 @@
-# pomodoro
+# seagulldoro
 
 A quick implementation of a pomodoro timer. This uses smol as an async runtime, breadx as a GUI interface,
 cpal to produce a beeping noise at the end of the alarm, and rusttype to render the text.
