@@ -1074,20 +1074,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pomodoro"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "approx",
- "breadx",
- "cpal",
- "easy-parallel",
- "futures-lite",
- "rusttype",
- "smol",
-]
-
-[[package]]
 name = "proc-macro-crate"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1263,6 +1249,20 @@ checksum = "e3042af939fca8c3453b7af0f1c66e533a15a86169e39de2657310ade8f98d3c"
 dependencies = [
  "ring",
  "untrusted",
+]
+
+[[package]]
+name = "seagulldoro"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "approx",
+ "breadx",
+ "cpal",
+ "easy-parallel",
+ "futures-lite",
+ "rusttype",
+ "smol",
 ]
 
 [[package]]
